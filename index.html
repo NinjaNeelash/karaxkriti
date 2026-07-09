@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="icon" type="image/png" href="assets/icons/logo.png">
+</head>
+<body>
+  <div class="preloader" id="preloader">
+    <div class="preloader__content">
+      <div class="speedometer-shell">
+        <div class="speedometer-glow"></div>
+        <div class="speedometer-inner"></div>
+        <div class="speedometer-needle" id="preloaderNeedle"></div>
+        <div class="speedometer-label">IGNITION</div>
+      </div>
+      <div class="preloader-text">
+        <span id="preloaderPercent">0%</span>
+        <p>Loading...</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-shell" id="pageShell">
+    <div class="topbar">
+      <div class="progress-wrap"><div class="progress-bar" id="scrollProgress"></div></div>
+    </div>
+
+    <header class="navbar" id="navbar">
+      <div class="navbar__brand">
+        <span class="brand-mark">K</span>
+        <div>
+          <h1 id="brandTitle"></h1>
+        </div>
+      </div>
+      <nav class="navbar__links" id="navbarLinks"></nav>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Open menu">MENU</button>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <button class="mobile-close" id="mobileClose" aria-label="Close menu">&times;</button>
+      <nav id="mobileNavLinks"></nav>
+    </div>
+
+    <main id="siteContent"></main>
+
+    <aside class="floating-actions">
+      <button class="action-btn" id="musicToggle" data-state="off" aria-label="Toggle music">
+        <span class="action-icon">&#9834;</span>
+      </button>
+      <button class="action-btn" id="themePanelToggle" aria-label="Open theme settings">
+        <span class="action-icon">&#9881;</span>
+      </button>
+    </aside>
+
+    <div class="theme-panel" id="themePanel">
+      <div class="theme-panel__header">
+        <h3>Theme Studio</h3>
+        <button class="theme-panel__close" id="themePanelClose" aria-label="Close theme settings">&times;</button>
+      </div>
+      <p class="theme-panel__hint">Select a premium mood.</p>
+      <div class="theme-grid" id="themeOptions"></div>
+    </div>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
+  </div>
+
+  <script src="js/content.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
