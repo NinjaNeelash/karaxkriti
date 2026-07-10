@@ -1,5 +1,5 @@
 const profile = {
-  name: 'Kritika Agrawal',
+  name: 'Krittika Agrawal',
   shortName: 'KaraxKriti',
   age: 16,
   tagline: 'Fast / Friendly / Creative / Cinematic',
@@ -17,7 +17,7 @@ const profile = {
   ],
   hero: {
     eyebrow: 'Start Grid',
-    titleLines: ["Hey, I'm Kritika 👋", 'Welcome To My World.'],
+    titleLines: ["Hey, I'm Krittika 👋", 'Welcome To My World.'],
     typingPhrases: [
       'Formula One Fan',
       'Photography Lover',
@@ -27,7 +27,7 @@ const profile = {
       'Music Listener',
       'Parkour Enthusiast'
     ],
-    subtitle: "I'm Kritika, 16, and this is my world in motion: race weekends, cricket energy, photographs, sketches, stories, music, shopping plans, sports days, and little adventures that make everything feel more alive.",
+    subtitle: "I'm Krittika, 16, and this is my world in motion: race weekends, cricket energy, photographs, sketches, stories, music, shopping plans, sports days, and little adventures that make everything feel more alive.",
     cta: 'Explore My World',
     secondaryCta: 'Take A Lap',
     kicker: 'Apple polish / Porsche pace / Red Bull energy',
